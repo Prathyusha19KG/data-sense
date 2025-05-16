@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Page config
 st.set_page_config(page_title="Restaurant Cuisine Insights", layout="centered")
 
-st.title("🍽️ Top 10 Restaurant Cuisines")
+st.title("Top 10 Restaurant Cuisines")
 st.write("This dashboard presents the most popular cuisine types based on restaurant counts from a real-world dataset.")
 
 # Data for top 10 cuisines
@@ -29,7 +29,7 @@ ax.set_title('Top 10 Cuisines')
 st.pyplot(fig)
 
 # Key Insight
-st.markdown("### 🧠 Key Insight")
+st.markdown("### Key Insight")
 st.markdown("""
 North Indian and Chinese cuisines dominate the restaurant landscape, together making up over 6,600 establishments.
 This indicates a strong consumer preference for traditional and familiar food options.
